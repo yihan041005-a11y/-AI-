@@ -7,10 +7,10 @@ import time
 # --- 1. 核心配置 ---
 # 提示：在生产环境中建议使用 st.secrets 管理 API Key
 DEEPSEEK_API_KEY = "sk-46f5736e30f544288284d6b7d7641393"
-ELEVENLABS_API_KEY = "1e92d9b4465afceb5cab5752dd955a6b4f4cd01513242c73b436b157aff2bc0a"
+ELEVENLABS_API_KEY = "sk_82eea299b22d291c4703e32ee9fa49685ce8e62e91b1ebf9"
 
-VOICE_HIGH = "KHgM4pV2Z8iZSAJN762i"  # 高自信 ID
-VOICE_LOW = "h0Y5WlFcsvNDxdIyhVuO"  # 低自信 ID
+VOICE_HIGH = "KrFd1FTEPvldJW044qa2"  # 高自信 ID
+VOICE_LOW = "fAsuLzT1fQANUme9rLqU"  # 低自信 ID
 
 client_ds = openai.OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 client_el = ElevenLabs(api_key=ELEVENLABS_API_KEY)
